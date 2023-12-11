@@ -4,7 +4,7 @@ import type { Book } from "../types/global";
 export async function getBookList(paramSearchData: string) {
   let res;
   try {
-    res = await axios.get("http://13.125.112.126:8081/book/getBookList", {
+    res = await axios.get("http://52.79.177.224:8081/book/getBookList", {
       params: { searchWord: paramSearchData },
     });
 

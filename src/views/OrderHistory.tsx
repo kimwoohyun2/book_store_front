@@ -16,7 +16,7 @@ function OrderHistory() {
   useEffect(() => {
     axios
       .get(
-        "http://13.125.112.126:8081/order/getBookOrderHistory",
+        "http://52.79.177.224:8081/order/getBookOrderHistory",
         // "http://localhost:8081/order/getBookOrderHistory",
         { params: { username: username } }
       )

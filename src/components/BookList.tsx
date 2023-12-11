@@ -69,7 +69,7 @@ function BookList() {
     try {
       // 도서 삭제 api 호출
       const res = await axios.post(
-        "http://13.125.112.126:8081/book/deleteBook",
+        "http://52.79.177.224:8081/book/deleteBook",
         // "http://localhost:8081/book/deleteBook",
         filteredSearchedBookList
       );
@@ -204,7 +204,7 @@ function BookList() {
       });
 
       const res = await axios.post(
-        "http://13.125.112.126:8081/order/doOrderBook",
+        "http://52.79.177.224:8081/order/doOrderBook",
         // "http://localhost:8081/order/doOrderBook",
         filteredSearchedBookList
       );

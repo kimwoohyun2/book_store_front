@@ -79,8 +79,8 @@ function ModalPopup({ setModalOpen }: any) {
 
       if (isBookAdd) {
         // 도서 추가 api 호출
-        // const res = await axios.post("http://13.125.112.126:8081/book/addBook", {
-        res = await axios.post("http://13.125.112.126:8081/book/addBook", {
+        // const res = await axios.post("http://52.79.177.224:8081/book/addBook", {
+        res = await axios.post("http://52.79.177.224:8081/book/addBook", {
           bookTitle: bookTitle,
           bookDesc: bookDesc,
           bookImage: "",
@@ -92,8 +92,8 @@ function ModalPopup({ setModalOpen }: any) {
         });
       } else {
         // 도서 수정 api 호출
-        // const res = await axios.post("http://13.125.112.126:8081/book/addBook", {
-        res = await axios.post("http://13.125.112.126:8081/book/updateBook", {
+        // const res = await axios.post("http://52.79.177.224:8081/book/addBook", {
+        res = await axios.post("http://52.79.177.224:8081/book/updateBook", {
           bookNo: bookOne.bookNo,
           bookTitle: bookTitle,
           bookDesc: bookDesc,

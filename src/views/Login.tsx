@@ -52,7 +52,7 @@ function Login() {
 
     try {
       // 로그인 api 호출
-      const res = await axios.post("http://13.125.112.126:8081/login", {
+      const res = await axios.post("http://52.79.177.224:8081/login", {
         username: email,
         password: password,
       });

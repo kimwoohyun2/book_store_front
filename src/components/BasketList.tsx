@@ -117,7 +117,7 @@ function BasketList() {
     let res;
     try {
       res = await axios.post(
-        "http://13.125.112.126:8081/order/doOrderBook",
+        "http://52.79.177.224:8081/order/doOrderBook",
         // "http://localhost:8081/order/doOrderBook",
         filteredBasketList
       );
